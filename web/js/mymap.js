@@ -7,8 +7,8 @@ var icons = {};
 var nw, se = null;
 
 const pcenter = {
-		lat: -28.024,
-		lng: 140.887
+		lat: 36.3,
+		lng: 128.01
 };
 
 var myMap=function() {
