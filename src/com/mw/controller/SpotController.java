@@ -48,6 +48,9 @@ public class SpotController {
 		double endLng = Double.parseDouble(request.getParameter("selng"));
 		double endLat = Double.parseDouble(request.getParameter("selat"));
 		
+		System.out.printf("ilng: %f, ilat: %f, elng: %f, elat: %f\n",
+				startLng,startLat,
+				endLng, endLat);
 		if(startLng > endLng) {
 			double tmp = startLng;
 			startLng = endLng;
