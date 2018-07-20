@@ -119,6 +119,7 @@ var infoBox = "";
 			});
 		 
 		 infoBox = new InfoBox({   //객체 생성, 정보 지정
+			 alert("info");
 			    content: "ewagagawgewgaweaw", //infobox 내용
 			    boxStyle:{
 			        border :"5px #000099 solid" ,
@@ -146,6 +147,6 @@ var infoBox = "";
 <script src="js/mymap.js"></script>
 
 <!-- api key: key=AIzaSyDtIawTgEjsNSk0BE4mVjN3XNG_eb86lwI -->
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtIawTgEjsNSk0BE4mVjN3XNG_eb86lwI&callback=myMap&libraries=places"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtIawTgEjsNSk0BE4mVjN3XNG_eb86lwI&callback=myMap&libraries=places"></script>
 <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
 <script type="text/javascript" src="js/infobox.js"></script>
